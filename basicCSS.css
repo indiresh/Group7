@@ -1,0 +1,19 @@
+﻿p{
+	color:black;
+}
+
+h1{
+	color:silver;font-style:italic;
+}
+
+body{
+	background-color:cyan;
+}
+
+img{
+	height:150px;width:145px;border:thin;border-style:solid;
+}
+
+div{
+	border:thin;border-style:solid;
+}
