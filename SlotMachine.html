@@ -9,39 +9,65 @@
 
 <body>
 
-<div style="background: olive; height: 400px; width: 610px;">
-	<p>Slot machine</p>
+<div> <!-- Top nav begin -->
+	<div style="float:left">
+		<a href="">Account</a> 
+		<a href="">Scoreboard</a> 
+	</div>
 	
-	<div style="height: 80px;width:590;margin-left:10px;margin-right:10px">
-		<p>pay table</p>
+	<div style="float:right">
+		<a href="">Logout</a> 
 	</div>
+</div> <!-- Top nav end --> 
+<br/><br/><br/>
+
+<div> <!-- Begin main stuff -->	
+	<div class="slot" style="float:left;background: olive; height: 400px; width: 610px;margin-left:100px"> <!-- Begin slot machine -->
+		<p>Slot machine</p>
 		
-	<div style="float:left;height:150px;width:145px;margin-left:10px">
-		<p>left slot</p>
-	</div>
+		<div class="slot" style="height: 80px;width:590;margin-left:10px;margin-right:10px"> <!-- Begin pay table -->
+			<p>pay table</p>
+		</div> <!-- End pay table -->
 		
-	<div style="float:left;height:150px;width:145px">
-		<p>middle slot</p>
-	</div>
+		<div class="slot" style="height:150px;margin-left:10px;margin-right:10px">	<!-- Begin reels and totals -->
+			<div style="float:left;height:150px;width:145px;"> <!-- Begin left reel -->
+				<p>left slot</p>
+			</div> <!-- End left reel -->
+					
+			<div class="slot" style="float:left;height:150px;width:145px"> <!-- Begin middle reel -->
+				<p>middle slot</p>
+			</div> <!-- End middle reel -->
+			
+			<div class="slot" style="float:left;height:150px;width:145px"> <!-- Begin right reel -->
+				<p>right slot</p>
+			</div> <!-- End right reel -->
 		
-	<div style="float:left;height:150px;width:145px">
-		<p>right slot</p>
-	</div>
-		
-	<div style="background:black;float:left;height:150px;width:145px;margin-right:10px">
-		<div style="height:45px">
-			<p style="color:lime;text-align:center">Profit/Debt</p>
-		</div>
-		
-		<div style="height:45px">
-			<p style="color:red;text-align:center">Payout</p>
-		</div>
-		
-		<div>
-			<input type="submit" value="SPIN!" style="text-align:center; width: 145px; height: 50px;"></input>
-		</div>
-	</div>
-</div>
+			<div class="slot" style="background:black;float:left;height:150px;width:145px;"> <!-- Begin totals -->
+				<div class="slot" style="height:45px"> <!-- Begin profit/debt -->
+					<p style="color:lime;text-align:center">Profit/Debt</p>
+				</div> <!-- End profit/debt -->
+			
+				<div class="slot" style="height:45px"> <!-- Begin payout -->
+					<p style="color:red;text-align:center">Payout</p>
+				</div> <!-- End payout -->
+			
+				<div> <!-- Begin spin button -->
+					<input type="submit" value="SPIN!" style="text-align:center; width: 145px; height: 50px;"></input>
+				</div> <!-- End spin button -->
+			</div> <!-- End totals -->
+		</div> <!-- End reels and totals -->
+	</div> <!-- End slot machine -->
+	
+	<div style="margin-left:810px"> <!-- Begin Google Map Location -->
+		<iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=phoenix+az&amp;aq=0&amp;oq=Pheonix&amp;sll=45.00109,-86.270553&amp;sspn=8.808897,21.643066&amp;ie=UTF8&amp;hq=&amp;hnear=Phoenix,+Maricopa,+Arizona&amp;t=m&amp;z=9&amp;ll=33.448377,-112.074037&amp;output=embed"></iframe><br />
+		<p style="color:red">You are currently developing a gambling addiction at this location</p>
+	</div> <!-- End Google Map Location -->
+</div> <!-- End main stuff --> <br/><br/><br/><br/><br/><br/>
+
+<div> <!-- Begin bottom navigation -->
+	<a href="">About</a>
+	<a href="">Legal</a>
+</div> <!-- End bottom navigation -->
 
 </body>
 

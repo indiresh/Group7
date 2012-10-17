@@ -7,13 +7,13 @@ h1{
 }
 
 body{
-	background-color:cyan;
+	background-image:url('Coin.jpg')
 }
 
 img{
 	height:150px;width:145px;border:thin;border-style:solid;
 }
 
-div{
+.slot{
 	border:thin;border-style:solid;
 }
