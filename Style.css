@@ -1,0 +1,46 @@
+ul#navigation 
+{
+	list-style: none;
+	margin: 0;
+}
+
+ul#navigation li 
+{
+	display:inline;
+}
+
+ul#navigation a 
+{
+	color:#ffffff;
+	background-color:#000000;
+	text-decoration:none;
+	font-family:georgia, times, serif;
+	font-size:1.126em;
+	padding:10px;
+	border-bottom:3px solid #ff6600;
+}
+
+ul#navigation a:hover 
+{
+	color:#000000;
+	background-color:#ff6600;
+	padding:10px;
+	border-bottom:3px solid #000000;
+}
+
+table
+{
+	width:50%;
+	float:static;
+	text-align:center;
+}
+
+table#pos, td#pos, th#pos, tr#pos
+{
+	border:2px solid green;
+}
+
+table#neg, td#neg, th#neg, tr#neg
+{
+	border:2px solid red;
+}
