@@ -44,3 +44,23 @@ table#neg, td#neg, th#neg, tr#neg
 {
 	border:2px solid red;
 }
+
+p{
+	color:black;
+}
+
+h1{
+	color:purple;font-style:italic;
+}
+
+body{
+	background-image:url('Coin.jpg')
+}
+
+img{
+	height:150px;width:145px;border:thin;border-style:solid;
+}
+
+.slot{
+	border:thin;border-style:solid;
+}
