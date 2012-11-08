@@ -28,11 +28,16 @@ ul#navigation a:hover
 	border-bottom:3px solid #000000;
 }
 
+li
+{
+	background-color:white;
+}
+
 table
 {
 	width:50%;
-	float:static;
 	text-align:center;
+	background-color:white;
 }
 
 table#pos, td#pos, th#pos, tr#pos
@@ -47,10 +52,12 @@ table#neg, td#neg, th#neg, tr#neg
 
 p{
 	color:black;
+	background-color:white;
 }
 
 h1{
-	color:purple;font-style:italic;
+	color:black;
+	font-style:italic;
 }
 
 body{
@@ -63,4 +70,11 @@ img{
 
 .slot{
 	border:thin;border-style:solid;
+}
+
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
 }
