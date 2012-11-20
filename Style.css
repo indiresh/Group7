@@ -31,12 +31,11 @@ ul#navigation a:hover
 li
 {
 	background-color:white;
-	width:50%;
 }
 
 table
 {
-	width:50%;
+	width:25%;
 	text-align:center;
 	background-color:white;
 }
